@@ -26,11 +26,11 @@ int main() {
 
     ll N, A, B, C;
     cin >> N >> A >> B >> C;
-  
-  	if (A < B)
-      	swap(A, B);
-  	if (A < C)
-      	swap(A, C);
+
+    if (A < B)
+        swap(A, B);
+    if (A < C)
+        swap(A, C);
 
     ll ans = INT_MAX;
 
